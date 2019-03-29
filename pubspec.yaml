@@ -1,0 +1,109 @@
+name: programming_quotes
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  http: ^0.12.0+1
+  share: ^0.6.0+1
+  screen: ^0.0.5
+  path_provider: ^0.5.0+1
+  swipedetector: ^1.2.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.7.0"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/images/photo-1480506132288-68f7705954bd.jpeg
+  - assets/images/photo-1545112719-ce81d7de0b71.jpeg
+  - assets/images/photo-1482176012301-7421d86c74bb.jpeg
+  - assets/images/photo-1507646227500-4d389b0012be.jpeg
+  - assets/images/photo-1528361291842-aa9d21c667b9.jpeg
+  - assets/images/photo-1485011062108-85580cbb0d3e.jpeg
+  - assets/images/photo-1512149673953-1e251807ec7c.jpeg
+  - assets/images/photo-1550959087-f655e48c2b8d.jpeg
+  - assets/images/photo-1496674205429-924b32acd421.jpeg
+  - assets/images/photo-1544807259-20d81cbd0766.jpeg
+  - assets/images/photo-1548372033-893f42a8c1f3.jpeg
+  - assets/images/photo-1510511233900-1982d92bd835.jpeg
+  - assets/images/photo-1547142632-bca340742184.jpeg
+  - assets/images/photo-1520189123429-6a76abfe7906.jpeg
+  - assets/images/photo-1548092372-0d1bd40894a3.jpeg
+  - assets/images/photo-1550514153-36f7460c17aa.jpeg
+  - assets/images/photo-1486475554424-2fa50cd59f18.jpeg
+  - assets/images/photo-1420161900862-9a86fa1f5c79.jpeg
+  - assets/images/photo-1547658718-1cdaa0852790.jpeg
+  - assets/images/photo-1511296265581-c2450046447d.jpeg
+  - assets/images/photo-1504639725590-34d0984388bd.jpeg
+  - assets/images/photo-1543216375-dba97fcdbb85.jpeg
+  - assets/images/photo-1525004065538-5177b78faf50.jpeg
+  - assets/images/photo-1517336714731-489689fd1ca8.jpeg
+  - assets/images/photo-1477244075012-5cc28286e465.jpeg
+  - assets/images/photo-1505238680356-667803448bb6.jpeg
+  - assets/images/photo-1523655223303-4e9ef5234587.jpeg
+  - assets/images/photo-1497091071254-cc9b2ba7c48a.jpeg
+  - assets/images/photo-1523603915806-297c72d7a385.jpeg
+  - assets/images/photo-1550524756-d07d631274cc.jpeg
+  - assets/back.jpeg
+  - assets/quotes.json
+  - assets/images.json
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
