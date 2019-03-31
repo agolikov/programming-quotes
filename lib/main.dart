@@ -106,8 +106,8 @@ class ScrState extends State<Scr> {
                   Padding(padding:const EdgeInsets.only(bottom:32),child:Text(_author!=""?_author:"",style:TextStyle(fontSize:20))),
                   Row(mainAxisAlignment:MainAxisAlignment.spaceAround,children:<Widget>[
                    FloatingActionButton(child:Text('Liked'),onPressed:mode,backgroundColor:likeMod?Colors.black:clr,shape:likeMod?CircleBorder(side:BorderSide(color:Colors.white)):CircleBorder()),
-                   FloatingActionButton(child:Icon(likeBtn?Icons.favorite:Icons.favorite_border),onPressed:like,backgroundColor:clr),
                    FloatingActionButton(onPressed:back,child:Icon(Icons.keyboard_arrow_left),backgroundColor:clr),
+                   FloatingActionButton(child:Icon(likeBtn?Icons.favorite:Icons.favorite_border),onPressed:like,backgroundColor:clr),
                    FloatingActionButton(onPressed:fwd,child:Icon(Icons.keyboard_arrow_right),backgroundColor:clr),
                    FloatingActionButton(onPressed:share,backgroundColor:clr,child:Icon(Icons.share))])],),),),],))))),
       onSwipeLeft:fwd,onSwipeRight:back));}}
